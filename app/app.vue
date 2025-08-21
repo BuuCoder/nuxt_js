@@ -1,16 +1,5 @@
 <template>
-
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Positivus — Landing</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  </head>
-
-  <body class="bg-ink text-white font-sans antialiased">
+  <NuxtLayout>
     <NuxtPage />
-    <script type="module" src="/src/main.js"></script>
-  </body>
+  </NuxtLayout>
 </template>

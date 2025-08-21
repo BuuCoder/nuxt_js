@@ -4,13 +4,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "JZIeVjkV.js",
+    "file": "BdUuL8tf.js",
     "name": "error-404",
     "src": "../node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.js",
-      "_BRjaqo_3.js"
+      "_CSF760-e.js"
     ],
     "css": []
   },
@@ -25,13 +25,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DVKXkAHH.js",
+    "file": "Dxj4KCa8.js",
     "name": "error-500",
     "src": "../node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.js",
-      "_BRjaqo_3.js"
+      "_CSF760-e.js"
     ],
     "css": []
   },
@@ -46,11 +46,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B0pbIkr1.js",
+    "file": "hqgC1oyN.js",
     "name": "entry",
     "src": "../node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
     "dynamicImports": [
+      "layouts/default.vue",
       "../node_modules/nuxt/dist/app/components/error-404.vue",
       "../node_modules/nuxt/dist/app/components/error-500.vue"
     ],
@@ -64,14 +65,28 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   },
-  "_BRjaqo_3.js": {
+  "_CSF760-e.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BRjaqo_3.js",
+    "file": "CSF760-e.js",
     "name": "composables",
     "imports": [
+      "../node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
+  "layouts/default.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "CnQ8-hvP.js",
+    "name": "default",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_CSF760-e.js",
       "../node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -80,7 +95,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BedEQwDr.js",
+    "file": "B6oKNcsV.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
