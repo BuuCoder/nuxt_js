@@ -1,0 +1,3 @@
+import{i as n,u as a,c,a as e,t as s,o as i}from"./D6ShVLRJ.js";import{u as r}from"./D-6ZTlbv.js";const l={class:"container-std py-14 max-w-3xl"},p={class:"text-3xl md:text-4xl font-extrabold"},u={class:"mt-6 prose prose-invert prose-lg max-w-none"},h=n({__name:"[slug]",setup(d){const o=a();r({title:`${o.params.slug} — Blog — Positivus`});const t={title:"Top SEO Trends in 2025",content:`
+    In 2025, SEO continues to evolve with a focus on AI-driven content,
+    voice search, and user experience. Businesses need to adapt to stay competitive.`};return(m,_)=>(i(),c("main",l,[e("h1",p,s(t.title),1),e("article",u,[e("p",null,s(t.content),1)])]))}});export{h as default};
