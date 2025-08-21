@@ -4,13 +4,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vbvdl3aw.js",
+    "file": "JZIeVjkV.js",
     "name": "error-404",
     "src": "../node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.js",
-      "_D7QitFWd.js"
+      "_BRjaqo_3.js"
     ],
     "css": []
   },
@@ -25,13 +25,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DXLlaCZS.js",
+    "file": "DVKXkAHH.js",
     "name": "error-500",
     "src": "../node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.js",
-      "_D7QitFWd.js"
+      "_BRjaqo_3.js"
     ],
     "css": []
   },
@@ -46,7 +46,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Bnp8Uq4N.js",
+    "file": "B0pbIkr1.js",
     "name": "entry",
     "src": "../node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -55,21 +55,21 @@ const client_manifest = {
       "../node_modules/nuxt/dist/app/components/error-500.vue"
     ],
     "css": [
-      "entry.BNlUPnrs.css"
+      "entry.B3r3zRH4.css"
     ]
   },
-  "entry.BNlUPnrs.css": {
-    "file": "entry.BNlUPnrs.css",
+  "entry.B3r3zRH4.css": {
+    "file": "entry.B3r3zRH4.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
   },
-  "_D7QitFWd.js": {
+  "_BRjaqo_3.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "D7QitFWd.js",
+    "file": "BRjaqo_3.js",
     "name": "composables",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.js"
@@ -80,13 +80,20 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "72MGix25.js",
+    "file": "BedEQwDr.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.js"
-    ]
+    ],
+    "css": []
+  },
+  "index.ClDYhmNZ.css": {
+    "file": "index.ClDYhmNZ.css",
+    "resourceType": "style",
+    "prefetch": true,
+    "preload": true
   }
 };
 

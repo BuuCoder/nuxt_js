@@ -2,7 +2,7 @@ import { hasInjectionContext, getCurrentInstance, defineComponent, ref, inject, 
 import { l as hasProtocol, m as isScriptProtocol, n as joinURL, w as withQuery, o as sanitizeStatusCode, p as getContext, $ as $fetch, q as createHooks, r as executeAsync, i as createError$1, v as toRouteMatcher, x as createRouter$1, y as defu } from '../_/nitro.mjs';
 import { b as baseURL } from '../routes/renderer.mjs';
 import { RouterView, createMemoryHistory, createRouter, START_LOCATION } from 'vue-router';
-import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode, ssrRenderAttrs } from 'vue/server-renderer';
+import { ssrRenderSuspense, ssrRenderComponent, ssrRenderVNode } from 'vue/server-renderer';
 import 'node:http';
 import 'node:https';
 import 'node:events';
@@ -384,7 +384,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-BJ-7Sv_t.mjs')
+    component: () => import('./index-DS8VYl-S.mjs')
   }
 ];
 const ROUTE_KEY_PARENTHESES_RE = /(:\w+)\([^)]+\)/g;
@@ -822,9 +822,9 @@ const _export_sfc = (sfc, props) => {
 const _sfc_main$2 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_NuxtPage = __nuxt_component_0;
-  _push(`<div${ssrRenderAttrs(mergeProps({ class: "max-w-[1920px] mx-auto" }, _attrs))}><main class="flex-1 p-4">`);
+  _push(`<!--[--><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Positivus — Landing</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"></head><body class="bg-ink text-white font-sans antialiased">`);
   _push(ssrRenderComponent(_component_NuxtPage, null, null, _parent));
-  _push(`</main></div>`);
+  _push(`<script type="module" src="/src/main.js"><\/script></body><!--]-->`);
 }
 const _sfc_setup$2 = _sfc_main$2.setup;
 _sfc_main$2.setup = (props, ctx) => {
