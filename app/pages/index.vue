@@ -22,7 +22,7 @@ onMounted(() => {
       <!-- Logo -->
       <div class="flex items-center space-x-2">
         <img src="https://crystalpng.com/wp-content/uploads/2025/03/binance_logo.png" alt="Finory" class="h-8" />
-        <span class="font-bold text-lg">FINORY COMPANY</span>
+        <span class="font-bold text-lg">FINORY COMPANY HIHIHI</span>
       </div>
 
       <!-- Menu -->
