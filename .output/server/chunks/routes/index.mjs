@@ -1,4 +1,5 @@
-import { c as defineEventHandler, u as useRuntimeConfig } from '../_/nitro.mjs';
+import { c as defineEventHandler } from '../_/nitro.mjs';
+import jwt from 'jsonwebtoken';
 import 'node:http';
 import 'node:https';
 import 'node:events';
@@ -9,9 +10,16 @@ import 'node:crypto';
 import 'node:url';
 
 const index = defineEventHandler(() => {
-  useRuntimeConfig();
+  const token = jwt.sign(
+    { user: "batdong4", role: "admin" },
+    "secret_key_123",
+    { expiresIn: "1h" }
+  );
+  const decoded = jwt.verify(token, "secret_key_123");
   return {
-    message: "Hello world from Nuxt API"
+    message: "Hello world from Nuxt API with JWT \u2705",
+    token,
+    decoded
   };
 });
 
